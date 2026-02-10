@@ -1,0 +1,9 @@
+trajin md1.crd 1 10000000
+center :1-155
+image familiar
+strip :WAT,Na+
+distance dist1.out @230 @1944 out dist1.out
+distance dist2.out @1517 @1944 out dist2.out
+distance dist3.out @1518 @1944 out dist3.out
+angle angle1p5.out @229 @230 @1944 out angle1p5.out
+dihedral dih.out @1507 @1509 @1511 @1514 out dih.out

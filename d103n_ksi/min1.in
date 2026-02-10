@@ -1,0 +1,13 @@
+minimise water
+&cntrl
+ imin=1,
+ maxcyc=40000,
+ ncyc=20000,
+ ntpr=500,
+ ntwr=500,
+ ntb=1,
+ ntr=1,
+ cut=10.0
+ restraintmask=':1-128',
+ restraint_wt=1000.0,
+ &end

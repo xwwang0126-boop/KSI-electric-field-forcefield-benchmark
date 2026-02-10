@@ -1,0 +1,14 @@
+source /apps/amber20/dat/leap/cmd/leaprc.protein.ff19SB
+source /apps/amber20/dat/leap/cmd/leaprc.water.opc
+source /apps/amber20/dat/leap/cmd/leaprc.gaff
+MOL = loadmol2 19nt.mol2
+loadamberparams 19nt.frcmod
+check MOL
+p = loadpdb 5kp4d103n.pdb
+charge p
+solvateoct p OPCBOX 12.0
+addions p Na+ 0
+savepdb p 5kd103n.pdb
+saveamberparm p p.sd.top p.crd
+quit
+

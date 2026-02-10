@@ -1,0 +1,5 @@
+trajin md1.crd 1 1000000 
+center :1-128
+image familiar
+trajout mdall.crd
+

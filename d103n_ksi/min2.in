@@ -1,0 +1,12 @@
+minimise the whole system
+&cntrl
+  imin=1,
+  maxcyc=40000,
+  ncyc=20000,
+  ntpr=500,
+  ntwr=500,
+  ntb=1,
+  ntr=0,
+  cut=10.0
+ &end
+
